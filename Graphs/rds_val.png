@@ -1,0 +1,1977 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: ngspice
+%%BoundingBox: 22 22 594 612
+/Re-encode { % inFont outFont encoding | -
+   /MyEncoding exch def
+      exch findfont
+      dup length dict
+      begin
+         {def} forall
+         /Encoding MyEncoding def
+         currentdict
+      end
+      definefont
+} def
+/Helvetica /HelveticaLatin1 ISOLatin1Encoding Re-encode
+1 1 scale
+/HelveticaLatin1 findfont 10 scalefont setfont
+
+[] 0 setdash
+[1 2] 0 setdash
+[] 0 setdash
+243 66 moveto
+0 rotate
+(v-sweep) show
+-0 rotate
+[1 2] 0 setdash
+[] 0 setdash
+54 596 moveto
+0 rotate
+(dc1: ** sch_path: /home/krish/desktop/inverter_design_sky130/schematics/nmos_analysis.sch) show
+-0 rotate
+[1 2] 0 setdash
+[] 0 setdash
+newpath
+84 104 moveto
+84 548 lineto
+1.000000 setlinewidth
+stroke
+[1 2] 0 setdash
+[] 0 setdash
+75 87 moveto
+0 rotate
+(0.0) show
+-0 rotate
+[1 2] 0 setdash
+newpath
+165 104 moveto
+165 548 lineto
+1.000000 setlinewidth
+stroke
+[] 0 setdash
+156 87 moveto
+0 rotate
+(0.5) show
+-0 rotate
+[1 2] 0 setdash
+newpath
+246 104 moveto
+246 548 lineto
+1.000000 setlinewidth
+stroke
+[] 0 setdash
+237 87 moveto
+0 rotate
+(1.0) show
+-0 rotate
+[1 2] 0 setdash
+newpath
+327 104 moveto
+327 548 lineto
+1.000000 setlinewidth
+stroke
+[] 0 setdash
+318 87 moveto
+0 rotate
+(1.5) show
+-0 rotate
+[1 2] 0 setdash
+newpath
+408 104 moveto
+408 548 lineto
+1.000000 setlinewidth
+stroke
+[] 0 setdash
+399 87 moveto
+0 rotate
+(2.0) show
+-0 rotate
+[1 2] 0 setdash
+newpath
+489 104 moveto
+489 548 lineto
+1.000000 setlinewidth
+stroke
+[] 0 setdash
+480 87 moveto
+0 rotate
+(2.5) show
+-0 rotate
+[1 2] 0 setdash
+newpath
+570 104 moveto
+570 548 lineto
+1.000000 setlinewidth
+stroke
+[] 0 setdash
+561 87 moveto
+0 rotate
+(3.0) show
+-0 rotate
+[1 2] 0 setdash
+[] 0 setdash
+382 66 moveto
+0 rotate
+(V) show
+-0 rotate
+[1 2] 0 setdash
+[] 0 setdash
+newpath
+84 104 moveto
+570 104 lineto
+1.000000 setlinewidth
+stroke
+[1 2] 0 setdash
+[] 0 setdash
+64 101 moveto
+0 rotate
+(0.0) show
+-0 rotate
+[1 2] 0 setdash
+newpath
+84 215 moveto
+570 215 lineto
+1.000000 setlinewidth
+stroke
+[] 0 setdash
+64 212 moveto
+0 rotate
+(5.0) show
+-0 rotate
+[1 2] 0 setdash
+newpath
+84 326 moveto
+570 326 lineto
+1.000000 setlinewidth
+stroke
+[] 0 setdash
+58 323 moveto
+0 rotate
+(10.0) show
+-0 rotate
+[1 2] 0 setdash
+newpath
+84 437 moveto
+570 437 lineto
+1.000000 setlinewidth
+stroke
+[] 0 setdash
+58 434 moveto
+0 rotate
+(15.0) show
+-0 rotate
+[1 2] 0 setdash
+newpath
+84 548 moveto
+570 548 lineto
+1.000000 setlinewidth
+stroke
+[] 0 setdash
+58 545 moveto
+0 rotate
+(20.0) show
+-0 rotate
+[1 2] 0 setdash
+[] 0 setdash
+54 582 moveto
+0 rotate
+(k     ) show
+-0 rotate
+[1 2] 0 setdash
+[7 7] 0 setdash
+newpath
+291 586 moveto
+315 586 lineto
+1.000000 setlinewidth
+stroke
+[] 0 setdash
+321 582 moveto
+0 rotate
+(rds) show
+-0 rotate
+[7 7] 0 setdash
+newpath
+84 119 moveto
+88 119 lineto
+1.000000 setlinewidth
+88 120 lineto
+1.000000 setlinewidth
+93 120 lineto
+1.000000 setlinewidth
+93 121 lineto
+1.000000 setlinewidth
+97 121 lineto
+1.000000 setlinewidth
+97 122 lineto
+1.000000 setlinewidth
+102 122 lineto
+1.000000 setlinewidth
+102 123 lineto
+1.000000 setlinewidth
+105 123 lineto
+1.000000 setlinewidth
+106 124 lineto
+1.000000 setlinewidth
+109 124 lineto
+1.000000 setlinewidth
+109 125 lineto
+1.000000 setlinewidth
+112 125 lineto
+1.000000 setlinewidth
+113 126 lineto
+1.000000 setlinewidth
+115 126 lineto
+1.000000 setlinewidth
+115 127 lineto
+1.000000 setlinewidth
+118 127 lineto
+1.000000 setlinewidth
+118 128 lineto
+1.000000 setlinewidth
+120 128 lineto
+1.000000 setlinewidth
+121 129 lineto
+1.000000 setlinewidth
+123 129 lineto
+1.000000 setlinewidth
+123 130 lineto
+1.000000 setlinewidth
+125 130 lineto
+1.000000 setlinewidth
+125 131 lineto
+1.000000 setlinewidth
+126 131 lineto
+1.000000 setlinewidth
+127 132 lineto
+1.000000 setlinewidth
+128 132 lineto
+1.000000 setlinewidth
+128 133 lineto
+1.000000 setlinewidth
+129 133 lineto
+1.000000 setlinewidth
+130 134 lineto
+1.000000 setlinewidth
+131 134 lineto
+1.000000 setlinewidth
+131 135 lineto
+1.000000 setlinewidth
+132 135 lineto
+1.000000 setlinewidth
+132 136 lineto
+1.000000 setlinewidth
+133 136 lineto
+1.000000 setlinewidth
+133 137 lineto
+1.000000 setlinewidth
+134 137 lineto
+1.000000 setlinewidth
+134 138 lineto
+1.000000 setlinewidth
+135 138 lineto
+1.000000 setlinewidth
+135 139 lineto
+1.000000 setlinewidth
+136 139 lineto
+1.000000 setlinewidth
+136 140 lineto
+1.000000 setlinewidth
+137 140 lineto
+1.000000 setlinewidth
+137 141 lineto
+1.000000 setlinewidth
+138 142 lineto
+1.000000 setlinewidth
+138 143 lineto
+1.000000 setlinewidth
+139 143 lineto
+1.000000 setlinewidth
+139 144 lineto
+1.000000 setlinewidth
+140 145 lineto
+1.000000 setlinewidth
+140 146 lineto
+1.000000 setlinewidth
+141 146 lineto
+1.000000 setlinewidth
+141 148 lineto
+1.000000 setlinewidth
+142 148 lineto
+1.000000 setlinewidth
+142 150 lineto
+1.000000 setlinewidth
+143 150 lineto
+1.000000 setlinewidth
+143 152 lineto
+1.000000 setlinewidth
+144 152 lineto
+1.000000 setlinewidth
+144 154 lineto
+1.000000 setlinewidth
+145 154 lineto
+1.000000 setlinewidth
+145 156 lineto
+1.000000 setlinewidth
+146 157 lineto
+1.000000 setlinewidth
+146 159 lineto
+1.000000 setlinewidth
+147 159 lineto
+1.000000 setlinewidth
+147 161 lineto
+1.000000 setlinewidth
+148 162 lineto
+1.000000 setlinewidth
+148 165 lineto
+1.000000 setlinewidth
+149 165 lineto
+1.000000 setlinewidth
+149 167 lineto
+1.000000 setlinewidth
+150 168 lineto
+1.000000 setlinewidth
+150 170 lineto
+1.000000 setlinewidth
+151 171 lineto
+1.000000 setlinewidth
+151 173 lineto
+1.000000 setlinewidth
+152 174 lineto
+1.000000 setlinewidth
+152 177 lineto
+1.000000 setlinewidth
+153 177 lineto
+1.000000 setlinewidth
+153 181 lineto
+1.000000 setlinewidth
+154 181 lineto
+1.000000 setlinewidth
+154 184 lineto
+1.000000 setlinewidth
+155 185 lineto
+1.000000 setlinewidth
+155 187 lineto
+1.000000 setlinewidth
+156 188 lineto
+1.000000 setlinewidth
+156 191 lineto
+1.000000 setlinewidth
+157 192 lineto
+1.000000 setlinewidth
+157 195 lineto
+1.000000 setlinewidth
+158 195 lineto
+1.000000 setlinewidth
+158 198 lineto
+1.000000 setlinewidth
+159 199 lineto
+1.000000 setlinewidth
+159 203 lineto
+1.000000 setlinewidth
+160 203 lineto
+1.000000 setlinewidth
+160 207 lineto
+1.000000 setlinewidth
+161 207 lineto
+1.000000 setlinewidth
+161 211 lineto
+1.000000 setlinewidth
+162 211 lineto
+1.000000 setlinewidth
+162 214 lineto
+1.000000 setlinewidth
+163 215 lineto
+1.000000 setlinewidth
+163 218 lineto
+1.000000 setlinewidth
+164 219 lineto
+1.000000 setlinewidth
+164 222 lineto
+1.000000 setlinewidth
+165 223 lineto
+1.000000 setlinewidth
+165 227 lineto
+1.000000 setlinewidth
+166 227 lineto
+1.000000 setlinewidth
+166 231 lineto
+1.000000 setlinewidth
+167 231 lineto
+1.000000 setlinewidth
+167 235 lineto
+1.000000 setlinewidth
+168 235 lineto
+1.000000 setlinewidth
+168 239 lineto
+1.000000 setlinewidth
+169 239 lineto
+1.000000 setlinewidth
+169 243 lineto
+1.000000 setlinewidth
+170 243 lineto
+1.000000 setlinewidth
+170 246 lineto
+1.000000 setlinewidth
+171 247 lineto
+1.000000 setlinewidth
+171 251 lineto
+1.000000 setlinewidth
+172 252 lineto
+1.000000 setlinewidth
+172 255 lineto
+1.000000 setlinewidth
+173 255 lineto
+1.000000 setlinewidth
+173 259 lineto
+1.000000 setlinewidth
+174 259 lineto
+1.000000 setlinewidth
+174 262 lineto
+1.000000 setlinewidth
+175 263 lineto
+1.000000 setlinewidth
+175 266 lineto
+1.000000 setlinewidth
+176 267 lineto
+1.000000 setlinewidth
+176 270 lineto
+1.000000 setlinewidth
+177 271 lineto
+1.000000 setlinewidth
+177 274 lineto
+1.000000 setlinewidth
+178 275 lineto
+1.000000 setlinewidth
+178 278 lineto
+1.000000 setlinewidth
+179 278 lineto
+1.000000 setlinewidth
+179 281 lineto
+1.000000 setlinewidth
+180 282 lineto
+1.000000 setlinewidth
+180 285 lineto
+1.000000 setlinewidth
+181 286 lineto
+1.000000 setlinewidth
+181 289 lineto
+1.000000 setlinewidth
+182 289 lineto
+1.000000 setlinewidth
+182 293 lineto
+1.000000 setlinewidth
+183 293 lineto
+1.000000 setlinewidth
+183 296 lineto
+1.000000 setlinewidth
+184 297 lineto
+1.000000 setlinewidth
+184 300 lineto
+1.000000 setlinewidth
+185 300 lineto
+1.000000 setlinewidth
+185 303 lineto
+1.000000 setlinewidth
+186 303 lineto
+1.000000 setlinewidth
+186 306 lineto
+1.000000 setlinewidth
+187 307 lineto
+1.000000 setlinewidth
+187 309 lineto
+1.000000 setlinewidth
+188 310 lineto
+1.000000 setlinewidth
+188 313 lineto
+1.000000 setlinewidth
+189 314 lineto
+1.000000 setlinewidth
+189 316 lineto
+1.000000 setlinewidth
+190 317 lineto
+1.000000 setlinewidth
+190 320 lineto
+1.000000 setlinewidth
+191 320 lineto
+1.000000 setlinewidth
+191 323 lineto
+1.000000 setlinewidth
+192 323 lineto
+1.000000 setlinewidth
+192 326 lineto
+1.000000 setlinewidth
+193 326 lineto
+1.000000 setlinewidth
+193 329 lineto
+1.000000 setlinewidth
+194 329 lineto
+1.000000 setlinewidth
+194 332 lineto
+1.000000 setlinewidth
+195 333 lineto
+1.000000 setlinewidth
+195 335 lineto
+1.000000 setlinewidth
+196 336 lineto
+1.000000 setlinewidth
+196 338 lineto
+1.000000 setlinewidth
+197 338 lineto
+1.000000 setlinewidth
+197 341 lineto
+1.000000 setlinewidth
+198 341 lineto
+1.000000 setlinewidth
+198 344 lineto
+1.000000 setlinewidth
+199 344 lineto
+1.000000 setlinewidth
+199 346 lineto
+1.000000 setlinewidth
+200 347 lineto
+1.000000 setlinewidth
+200 350 lineto
+1.000000 setlinewidth
+201 350 lineto
+1.000000 setlinewidth
+201 352 lineto
+1.000000 setlinewidth
+202 353 lineto
+1.000000 setlinewidth
+202 355 lineto
+1.000000 setlinewidth
+203 355 lineto
+1.000000 setlinewidth
+203 357 lineto
+1.000000 setlinewidth
+204 358 lineto
+1.000000 setlinewidth
+204 360 lineto
+1.000000 setlinewidth
+205 360 lineto
+1.000000 setlinewidth
+205 363 lineto
+1.000000 setlinewidth
+206 363 lineto
+1.000000 setlinewidth
+206 365 lineto
+1.000000 setlinewidth
+207 366 lineto
+1.000000 setlinewidth
+207 368 lineto
+1.000000 setlinewidth
+208 368 lineto
+1.000000 setlinewidth
+208 370 lineto
+1.000000 setlinewidth
+209 371 lineto
+1.000000 setlinewidth
+209 373 lineto
+1.000000 setlinewidth
+210 373 lineto
+1.000000 setlinewidth
+210 375 lineto
+1.000000 setlinewidth
+211 375 lineto
+1.000000 setlinewidth
+211 378 lineto
+1.000000 setlinewidth
+212 378 lineto
+1.000000 setlinewidth
+212 380 lineto
+1.000000 setlinewidth
+213 380 lineto
+1.000000 setlinewidth
+213 382 lineto
+1.000000 setlinewidth
+214 383 lineto
+1.000000 setlinewidth
+214 384 lineto
+1.000000 setlinewidth
+215 385 lineto
+1.000000 setlinewidth
+215 386 lineto
+1.000000 setlinewidth
+216 387 lineto
+1.000000 setlinewidth
+216 389 lineto
+1.000000 setlinewidth
+217 389 lineto
+1.000000 setlinewidth
+217 391 lineto
+1.000000 setlinewidth
+218 391 lineto
+1.000000 setlinewidth
+218 393 lineto
+1.000000 setlinewidth
+219 393 lineto
+1.000000 setlinewidth
+219 395 lineto
+1.000000 setlinewidth
+220 395 lineto
+1.000000 setlinewidth
+220 397 lineto
+1.000000 setlinewidth
+221 397 lineto
+1.000000 setlinewidth
+221 399 lineto
+1.000000 setlinewidth
+222 399 lineto
+1.000000 setlinewidth
+222 401 lineto
+1.000000 setlinewidth
+223 401 lineto
+1.000000 setlinewidth
+223 403 lineto
+1.000000 setlinewidth
+224 404 lineto
+1.000000 setlinewidth
+224 405 lineto
+1.000000 setlinewidth
+225 406 lineto
+1.000000 setlinewidth
+225 407 lineto
+1.000000 setlinewidth
+226 407 lineto
+1.000000 setlinewidth
+226 409 lineto
+1.000000 setlinewidth
+227 409 lineto
+1.000000 setlinewidth
+227 411 lineto
+1.000000 setlinewidth
+228 411 lineto
+1.000000 setlinewidth
+228 412 lineto
+1.000000 setlinewidth
+229 413 lineto
+1.000000 setlinewidth
+229 415 lineto
+1.000000 setlinewidth
+230 415 lineto
+1.000000 setlinewidth
+230 416 lineto
+1.000000 setlinewidth
+231 417 lineto
+1.000000 setlinewidth
+231 418 lineto
+1.000000 setlinewidth
+232 418 lineto
+1.000000 setlinewidth
+232 420 lineto
+1.000000 setlinewidth
+233 420 lineto
+1.000000 setlinewidth
+233 421 lineto
+1.000000 setlinewidth
+234 422 lineto
+1.000000 setlinewidth
+234 423 lineto
+1.000000 setlinewidth
+235 423 lineto
+1.000000 setlinewidth
+235 425 lineto
+1.000000 setlinewidth
+236 425 lineto
+1.000000 setlinewidth
+236 426 lineto
+1.000000 setlinewidth
+237 427 lineto
+1.000000 setlinewidth
+237 428 lineto
+1.000000 setlinewidth
+238 428 lineto
+1.000000 setlinewidth
+238 430 lineto
+1.000000 setlinewidth
+239 430 lineto
+1.000000 setlinewidth
+239 431 lineto
+1.000000 setlinewidth
+240 431 lineto
+1.000000 setlinewidth
+240 433 lineto
+1.000000 setlinewidth
+241 433 lineto
+1.000000 setlinewidth
+241 434 lineto
+1.000000 setlinewidth
+242 435 lineto
+1.000000 setlinewidth
+242 436 lineto
+1.000000 setlinewidth
+243 436 lineto
+1.000000 setlinewidth
+243 437 lineto
+1.000000 setlinewidth
+244 437 lineto
+1.000000 setlinewidth
+244 439 lineto
+1.000000 setlinewidth
+245 439 lineto
+1.000000 setlinewidth
+245 440 lineto
+1.000000 setlinewidth
+246 440 lineto
+1.000000 setlinewidth
+246 442 lineto
+1.000000 setlinewidth
+247 442 lineto
+1.000000 setlinewidth
+247 443 lineto
+1.000000 setlinewidth
+248 443 lineto
+1.000000 setlinewidth
+248 444 lineto
+1.000000 setlinewidth
+249 445 lineto
+1.000000 setlinewidth
+249 446 lineto
+1.000000 setlinewidth
+250 446 lineto
+1.000000 setlinewidth
+250 447 lineto
+1.000000 setlinewidth
+251 447 lineto
+1.000000 setlinewidth
+251 448 lineto
+1.000000 setlinewidth
+252 448 lineto
+1.000000 setlinewidth
+252 450 lineto
+1.000000 setlinewidth
+253 450 lineto
+1.000000 setlinewidth
+253 451 lineto
+1.000000 setlinewidth
+254 451 lineto
+1.000000 setlinewidth
+254 452 lineto
+1.000000 setlinewidth
+255 452 lineto
+1.000000 setlinewidth
+255 453 lineto
+1.000000 setlinewidth
+256 454 lineto
+1.000000 setlinewidth
+256 455 lineto
+1.000000 setlinewidth
+257 455 lineto
+1.000000 setlinewidth
+257 456 lineto
+1.000000 setlinewidth
+258 456 lineto
+1.000000 setlinewidth
+258 457 lineto
+1.000000 setlinewidth
+259 457 lineto
+1.000000 setlinewidth
+259 458 lineto
+1.000000 setlinewidth
+260 459 lineto
+1.000000 setlinewidth
+260 460 lineto
+1.000000 setlinewidth
+261 460 lineto
+1.000000 setlinewidth
+261 461 lineto
+1.000000 setlinewidth
+262 461 lineto
+1.000000 setlinewidth
+262 462 lineto
+1.000000 setlinewidth
+263 462 lineto
+1.000000 setlinewidth
+263 463 lineto
+1.000000 setlinewidth
+264 463 lineto
+1.000000 setlinewidth
+264 464 lineto
+1.000000 setlinewidth
+265 464 lineto
+1.000000 setlinewidth
+265 465 lineto
+1.000000 setlinewidth
+266 465 lineto
+1.000000 setlinewidth
+266 466 lineto
+1.000000 setlinewidth
+267 466 lineto
+1.000000 setlinewidth
+267 467 lineto
+1.000000 setlinewidth
+269 469 lineto
+1.000000 setlinewidth
+269 470 lineto
+1.000000 setlinewidth
+270 470 lineto
+1.000000 setlinewidth
+270 471 lineto
+1.000000 setlinewidth
+271 471 lineto
+1.000000 setlinewidth
+271 472 lineto
+1.000000 setlinewidth
+272 472 lineto
+1.000000 setlinewidth
+272 473 lineto
+1.000000 setlinewidth
+273 473 lineto
+1.000000 setlinewidth
+273 474 lineto
+1.000000 setlinewidth
+274 474 lineto
+1.000000 setlinewidth
+274 475 lineto
+1.000000 setlinewidth
+275 475 lineto
+1.000000 setlinewidth
+275 476 lineto
+1.000000 setlinewidth
+276 476 lineto
+1.000000 setlinewidth
+276 477 lineto
+1.000000 setlinewidth
+277 477 lineto
+1.000000 setlinewidth
+277 478 lineto
+1.000000 setlinewidth
+278 478 lineto
+1.000000 setlinewidth
+280 480 lineto
+1.000000 setlinewidth
+281 480 lineto
+1.000000 setlinewidth
+281 481 lineto
+1.000000 setlinewidth
+282 481 lineto
+1.000000 setlinewidth
+282 482 lineto
+1.000000 setlinewidth
+283 482 lineto
+1.000000 setlinewidth
+283 483 lineto
+1.000000 setlinewidth
+284 483 lineto
+1.000000 setlinewidth
+284 484 lineto
+1.000000 setlinewidth
+285 484 lineto
+1.000000 setlinewidth
+285 485 lineto
+1.000000 setlinewidth
+286 485 lineto
+1.000000 setlinewidth
+286 486 lineto
+1.000000 setlinewidth
+287 486 lineto
+1.000000 setlinewidth
+287 487 lineto
+1.000000 setlinewidth
+288 487 lineto
+1.000000 setlinewidth
+289 488 lineto
+1.000000 setlinewidth
+290 488 lineto
+1.000000 setlinewidth
+290 489 lineto
+1.000000 setlinewidth
+291 489 lineto
+1.000000 setlinewidth
+291 490 lineto
+1.000000 setlinewidth
+292 490 lineto
+1.000000 setlinewidth
+292 491 lineto
+1.000000 setlinewidth
+293 491 lineto
+1.000000 setlinewidth
+294 492 lineto
+1.000000 setlinewidth
+295 492 lineto
+1.000000 setlinewidth
+295 493 lineto
+1.000000 setlinewidth
+296 493 lineto
+1.000000 setlinewidth
+296 494 lineto
+1.000000 setlinewidth
+297 494 lineto
+1.000000 setlinewidth
+298 495 lineto
+1.000000 setlinewidth
+299 495 lineto
+1.000000 setlinewidth
+299 496 lineto
+1.000000 setlinewidth
+300 496 lineto
+1.000000 setlinewidth
+300 497 lineto
+1.000000 setlinewidth
+301 497 lineto
+1.000000 setlinewidth
+302 498 lineto
+1.000000 setlinewidth
+303 498 lineto
+1.000000 setlinewidth
+303 499 lineto
+1.000000 setlinewidth
+304 499 lineto
+1.000000 setlinewidth
+304 500 lineto
+1.000000 setlinewidth
+306 500 lineto
+1.000000 setlinewidth
+306 501 lineto
+1.000000 setlinewidth
+307 501 lineto
+1.000000 setlinewidth
+307 502 lineto
+1.000000 setlinewidth
+309 502 lineto
+1.000000 setlinewidth
+309 503 lineto
+1.000000 setlinewidth
+310 503 lineto
+1.000000 setlinewidth
+310 504 lineto
+1.000000 setlinewidth
+312 504 lineto
+1.000000 setlinewidth
+312 505 lineto
+1.000000 setlinewidth
+313 505 lineto
+1.000000 setlinewidth
+313 506 lineto
+1.000000 setlinewidth
+315 506 lineto
+1.000000 setlinewidth
+315 507 lineto
+1.000000 setlinewidth
+316 507 lineto
+1.000000 setlinewidth
+316 508 lineto
+1.000000 setlinewidth
+318 508 lineto
+1.000000 setlinewidth
+318 509 lineto
+1.000000 setlinewidth
+320 509 lineto
+1.000000 setlinewidth
+320 510 lineto
+1.000000 setlinewidth
+321 510 lineto
+1.000000 setlinewidth
+321 511 lineto
+1.000000 setlinewidth
+323 511 lineto
+1.000000 setlinewidth
+323 512 lineto
+1.000000 setlinewidth
+325 512 lineto
+1.000000 setlinewidth
+325 513 lineto
+1.000000 setlinewidth
+327 513 lineto
+1.000000 setlinewidth
+327 514 lineto
+1.000000 setlinewidth
+329 514 lineto
+1.000000 setlinewidth
+329 515 lineto
+1.000000 setlinewidth
+331 515 lineto
+1.000000 setlinewidth
+331 516 lineto
+1.000000 setlinewidth
+333 516 lineto
+1.000000 setlinewidth
+333 517 lineto
+1.000000 setlinewidth
+334 517 lineto
+1.000000 setlinewidth
+335 518 lineto
+1.000000 setlinewidth
+337 518 lineto
+1.000000 setlinewidth
+337 519 lineto
+1.000000 setlinewidth
+339 519 lineto
+1.000000 setlinewidth
+339 520 lineto
+1.000000 setlinewidth
+341 520 lineto
+1.000000 setlinewidth
+341 521 lineto
+1.000000 setlinewidth
+343 521 lineto
+1.000000 setlinewidth
+343 522 lineto
+1.000000 setlinewidth
+345 522 lineto
+1.000000 setlinewidth
+345 523 lineto
+1.000000 setlinewidth
+348 523 lineto
+1.000000 setlinewidth
+348 524 lineto
+1.000000 setlinewidth
+350 524 lineto
+1.000000 setlinewidth
+350 525 lineto
+1.000000 setlinewidth
+353 525 lineto
+1.000000 setlinewidth
+353 526 lineto
+1.000000 setlinewidth
+355 526 lineto
+1.000000 setlinewidth
+356 527 lineto
+1.000000 setlinewidth
+358 527 lineto
+1.000000 setlinewidth
+358 528 lineto
+1.000000 setlinewidth
+361 528 lineto
+1.000000 setlinewidth
+361 529 lineto
+1.000000 setlinewidth
+364 529 lineto
+1.000000 setlinewidth
+364 530 lineto
+1.000000 setlinewidth
+367 530 lineto
+1.000000 setlinewidth
+368 531 lineto
+1.000000 setlinewidth
+371 531 lineto
+1.000000 setlinewidth
+371 532 lineto
+1.000000 setlinewidth
+375 532 lineto
+1.000000 setlinewidth
+375 533 lineto
+1.000000 setlinewidth
+379 533 lineto
+1.000000 setlinewidth
+380 534 lineto
+1.000000 setlinewidth
+385 534 lineto
+1.000000 setlinewidth
+385 535 lineto
+1.000000 setlinewidth
+392 535 lineto
+1.000000 setlinewidth
+392 536 lineto
+1.000000 setlinewidth
+421 536 lineto
+1.000000 setlinewidth
+stroke
+newpath
+421 535 moveto
+421 536 lineto
+1.000000 setlinewidth
+stroke
+newpath
+421 535 moveto
+428 535 lineto
+1.000000 setlinewidth
+stroke
+newpath
+428 534 moveto
+428 535 lineto
+1.000000 setlinewidth
+stroke
+newpath
+428 534 moveto
+432 534 lineto
+1.000000 setlinewidth
+433 533 lineto
+1.000000 setlinewidth
+437 533 lineto
+1.000000 setlinewidth
+stroke
+newpath
+437 532 moveto
+437 533 lineto
+1.000000 setlinewidth
+stroke
+newpath
+437 532 moveto
+440 532 lineto
+1.000000 setlinewidth
+stroke
+newpath
+440 531 moveto
+440 532 lineto
+1.000000 setlinewidth
+stroke
+newpath
+440 531 moveto
+443 531 lineto
+1.000000 setlinewidth
+stroke
+newpath
+443 530 moveto
+443 531 lineto
+1.000000 setlinewidth
+stroke
+newpath
+443 530 moveto
+446 530 lineto
+1.000000 setlinewidth
+stroke
+newpath
+446 529 moveto
+446 530 lineto
+1.000000 setlinewidth
+stroke
+newpath
+446 529 moveto
+449 529 lineto
+1.000000 setlinewidth
+stroke
+newpath
+449 528 moveto
+449 529 lineto
+1.000000 setlinewidth
+stroke
+newpath
+449 528 moveto
+452 528 lineto
+1.000000 setlinewidth
+stroke
+newpath
+452 527 moveto
+452 528 lineto
+1.000000 setlinewidth
+stroke
+newpath
+452 527 moveto
+454 527 lineto
+1.000000 setlinewidth
+stroke
+newpath
+454 526 moveto
+454 527 lineto
+1.000000 setlinewidth
+stroke
+newpath
+454 526 moveto
+456 526 lineto
+1.000000 setlinewidth
+stroke
+newpath
+456 525 moveto
+456 526 lineto
+1.000000 setlinewidth
+stroke
+newpath
+456 525 moveto
+458 525 lineto
+1.000000 setlinewidth
+459 524 lineto
+1.000000 setlinewidth
+460 524 lineto
+1.000000 setlinewidth
+461 523 lineto
+1.000000 setlinewidth
+463 523 lineto
+1.000000 setlinewidth
+stroke
+newpath
+463 522 moveto
+463 523 lineto
+1.000000 setlinewidth
+stroke
+newpath
+463 522 moveto
+465 522 lineto
+1.000000 setlinewidth
+stroke
+newpath
+465 521 moveto
+465 522 lineto
+1.000000 setlinewidth
+stroke
+newpath
+465 521 moveto
+466 521 lineto
+1.000000 setlinewidth
+stroke
+newpath
+466 520 moveto
+466 521 lineto
+1.000000 setlinewidth
+stroke
+newpath
+466 520 moveto
+468 520 lineto
+1.000000 setlinewidth
+stroke
+newpath
+468 519 moveto
+468 520 lineto
+1.000000 setlinewidth
+stroke
+newpath
+468 519 moveto
+470 519 lineto
+1.000000 setlinewidth
+stroke
+newpath
+470 518 moveto
+470 519 lineto
+1.000000 setlinewidth
+stroke
+newpath
+470 518 moveto
+472 518 lineto
+1.000000 setlinewidth
+stroke
+newpath
+472 517 moveto
+472 518 lineto
+1.000000 setlinewidth
+stroke
+newpath
+472 517 moveto
+473 517 lineto
+1.000000 setlinewidth
+474 516 lineto
+1.000000 setlinewidth
+475 516 lineto
+1.000000 setlinewidth
+stroke
+newpath
+475 515 moveto
+475 516 lineto
+1.000000 setlinewidth
+stroke
+newpath
+475 515 moveto
+477 515 lineto
+1.000000 setlinewidth
+stroke
+newpath
+477 514 moveto
+477 515 lineto
+1.000000 setlinewidth
+stroke
+newpath
+477 514 moveto
+478 514 lineto
+1.000000 setlinewidth
+stroke
+newpath
+478 513 moveto
+478 514 lineto
+1.000000 setlinewidth
+stroke
+newpath
+478 513 moveto
+480 513 lineto
+1.000000 setlinewidth
+stroke
+newpath
+480 512 moveto
+480 513 lineto
+1.000000 setlinewidth
+stroke
+newpath
+480 512 moveto
+481 512 lineto
+1.000000 setlinewidth
+482 511 lineto
+1.000000 setlinewidth
+483 511 lineto
+1.000000 setlinewidth
+stroke
+newpath
+483 510 moveto
+483 511 lineto
+1.000000 setlinewidth
+stroke
+newpath
+483 510 moveto
+484 510 lineto
+1.000000 setlinewidth
+stroke
+newpath
+484 509 moveto
+484 510 lineto
+1.000000 setlinewidth
+stroke
+newpath
+484 509 moveto
+486 509 lineto
+1.000000 setlinewidth
+stroke
+newpath
+486 508 moveto
+486 509 lineto
+1.000000 setlinewidth
+stroke
+newpath
+486 508 moveto
+487 508 lineto
+1.000000 setlinewidth
+stroke
+newpath
+487 507 moveto
+487 508 lineto
+1.000000 setlinewidth
+stroke
+newpath
+487 507 moveto
+489 507 lineto
+1.000000 setlinewidth
+stroke
+newpath
+489 506 moveto
+489 507 lineto
+1.000000 setlinewidth
+stroke
+newpath
+489 506 moveto
+490 506 lineto
+1.000000 setlinewidth
+stroke
+newpath
+490 505 moveto
+490 506 lineto
+1.000000 setlinewidth
+stroke
+newpath
+490 505 moveto
+491 505 lineto
+1.000000 setlinewidth
+492 504 lineto
+1.000000 setlinewidth
+493 504 lineto
+1.000000 setlinewidth
+stroke
+newpath
+493 503 moveto
+493 504 lineto
+1.000000 setlinewidth
+stroke
+newpath
+493 503 moveto
+494 503 lineto
+1.000000 setlinewidth
+stroke
+newpath
+494 502 moveto
+494 503 lineto
+1.000000 setlinewidth
+stroke
+newpath
+494 502 moveto
+495 502 lineto
+1.000000 setlinewidth
+stroke
+newpath
+495 501 moveto
+495 502 lineto
+1.000000 setlinewidth
+stroke
+newpath
+495 501 moveto
+497 501 lineto
+1.000000 setlinewidth
+stroke
+newpath
+497 500 moveto
+497 501 lineto
+1.000000 setlinewidth
+stroke
+newpath
+497 500 moveto
+498 500 lineto
+1.000000 setlinewidth
+stroke
+newpath
+498 499 moveto
+498 500 lineto
+1.000000 setlinewidth
+stroke
+newpath
+498 499 moveto
+499 499 lineto
+1.000000 setlinewidth
+stroke
+newpath
+499 498 moveto
+499 499 lineto
+1.000000 setlinewidth
+stroke
+newpath
+499 498 moveto
+501 498 lineto
+1.000000 setlinewidth
+stroke
+newpath
+501 497 moveto
+501 498 lineto
+1.000000 setlinewidth
+stroke
+newpath
+501 497 moveto
+502 497 lineto
+1.000000 setlinewidth
+stroke
+newpath
+502 496 moveto
+502 497 lineto
+1.000000 setlinewidth
+stroke
+newpath
+502 496 moveto
+503 496 lineto
+1.000000 setlinewidth
+stroke
+newpath
+503 495 moveto
+503 496 lineto
+1.000000 setlinewidth
+stroke
+newpath
+503 495 moveto
+504 495 lineto
+1.000000 setlinewidth
+stroke
+newpath
+504 494 moveto
+504 495 lineto
+1.000000 setlinewidth
+stroke
+newpath
+504 494 moveto
+505 494 lineto
+1.000000 setlinewidth
+507 492 lineto
+1.000000 setlinewidth
+508 492 lineto
+1.000000 setlinewidth
+stroke
+newpath
+508 491 moveto
+508 492 lineto
+1.000000 setlinewidth
+stroke
+newpath
+508 491 moveto
+509 491 lineto
+1.000000 setlinewidth
+stroke
+newpath
+509 490 moveto
+509 491 lineto
+1.000000 setlinewidth
+stroke
+newpath
+509 490 moveto
+510 490 lineto
+1.000000 setlinewidth
+stroke
+newpath
+510 489 moveto
+510 490 lineto
+1.000000 setlinewidth
+stroke
+newpath
+510 489 moveto
+511 489 lineto
+1.000000 setlinewidth
+stroke
+newpath
+511 488 moveto
+511 489 lineto
+1.000000 setlinewidth
+stroke
+newpath
+511 488 moveto
+512 488 lineto
+1.000000 setlinewidth
+stroke
+newpath
+512 487 moveto
+512 488 lineto
+1.000000 setlinewidth
+stroke
+newpath
+512 487 moveto
+513 487 lineto
+1.000000 setlinewidth
+514 486 lineto
+1.000000 setlinewidth
+515 486 lineto
+1.000000 setlinewidth
+stroke
+newpath
+515 485 moveto
+515 486 lineto
+1.000000 setlinewidth
+stroke
+newpath
+515 485 moveto
+516 485 lineto
+1.000000 setlinewidth
+stroke
+newpath
+516 484 moveto
+516 485 lineto
+1.000000 setlinewidth
+stroke
+newpath
+516 484 moveto
+517 484 lineto
+1.000000 setlinewidth
+stroke
+newpath
+517 483 moveto
+517 484 lineto
+1.000000 setlinewidth
+stroke
+newpath
+517 483 moveto
+518 483 lineto
+1.000000 setlinewidth
+stroke
+newpath
+518 482 moveto
+518 483 lineto
+1.000000 setlinewidth
+stroke
+newpath
+518 482 moveto
+519 482 lineto
+1.000000 setlinewidth
+stroke
+newpath
+519 481 moveto
+519 482 lineto
+1.000000 setlinewidth
+stroke
+newpath
+519 481 moveto
+520 481 lineto
+1.000000 setlinewidth
+stroke
+newpath
+520 480 moveto
+520 481 lineto
+1.000000 setlinewidth
+stroke
+newpath
+520 480 moveto
+521 480 lineto
+1.000000 setlinewidth
+stroke
+newpath
+521 479 moveto
+521 480 lineto
+1.000000 setlinewidth
+stroke
+newpath
+521 479 moveto
+522 479 lineto
+1.000000 setlinewidth
+525 476 lineto
+1.000000 setlinewidth
+526 476 lineto
+1.000000 setlinewidth
+stroke
+newpath
+526 475 moveto
+526 476 lineto
+1.000000 setlinewidth
+stroke
+newpath
+526 475 moveto
+527 475 lineto
+1.000000 setlinewidth
+stroke
+newpath
+527 474 moveto
+527 475 lineto
+1.000000 setlinewidth
+stroke
+newpath
+527 474 moveto
+528 474 lineto
+1.000000 setlinewidth
+stroke
+newpath
+528 473 moveto
+528 474 lineto
+1.000000 setlinewidth
+stroke
+newpath
+528 473 moveto
+529 473 lineto
+1.000000 setlinewidth
+stroke
+newpath
+529 472 moveto
+529 473 lineto
+1.000000 setlinewidth
+stroke
+newpath
+529 472 moveto
+530 472 lineto
+1.000000 setlinewidth
+stroke
+newpath
+530 471 moveto
+530 472 lineto
+1.000000 setlinewidth
+stroke
+newpath
+530 471 moveto
+531 471 lineto
+1.000000 setlinewidth
+stroke
+newpath
+531 470 moveto
+531 471 lineto
+1.000000 setlinewidth
+stroke
+newpath
+531 470 moveto
+532 470 lineto
+1.000000 setlinewidth
+stroke
+newpath
+532 469 moveto
+532 470 lineto
+1.000000 setlinewidth
+stroke
+newpath
+532 469 moveto
+533 469 lineto
+1.000000 setlinewidth
+stroke
+newpath
+533 468 moveto
+533 469 lineto
+1.000000 setlinewidth
+stroke
+newpath
+533 468 moveto
+534 468 lineto
+1.000000 setlinewidth
+stroke
+newpath
+534 467 moveto
+534 468 lineto
+1.000000 setlinewidth
+stroke
+newpath
+534 467 moveto
+535 467 lineto
+1.000000 setlinewidth
+stroke
+newpath
+535 466 moveto
+535 467 lineto
+1.000000 setlinewidth
+stroke
+newpath
+535 466 moveto
+536 466 lineto
+1.000000 setlinewidth
+stroke
+newpath
+536 465 moveto
+536 466 lineto
+1.000000 setlinewidth
+stroke
+newpath
+536 465 moveto
+537 465 lineto
+1.000000 setlinewidth
+stroke
+newpath
+537 464 moveto
+537 465 lineto
+1.000000 setlinewidth
+stroke
+newpath
+537 464 moveto
+538 464 lineto
+1.000000 setlinewidth
+stroke
+newpath
+538 463 moveto
+538 464 lineto
+1.000000 setlinewidth
+stroke
+newpath
+538 463 moveto
+539 463 lineto
+1.000000 setlinewidth
+stroke
+newpath
+539 462 moveto
+539 463 lineto
+1.000000 setlinewidth
+stroke
+newpath
+539 462 moveto
+540 462 lineto
+1.000000 setlinewidth
+stroke
+newpath
+540 461 moveto
+540 462 lineto
+1.000000 setlinewidth
+stroke
+newpath
+540 461 moveto
+541 461 lineto
+1.000000 setlinewidth
+stroke
+newpath
+541 460 moveto
+541 461 lineto
+1.000000 setlinewidth
+stroke
+newpath
+541 460 moveto
+542 460 lineto
+1.000000 setlinewidth
+stroke
+newpath
+542 459 moveto
+542 460 lineto
+1.000000 setlinewidth
+stroke
+newpath
+542 459 moveto
+543 459 lineto
+1.000000 setlinewidth
+stroke
+newpath
+543 458 moveto
+543 459 lineto
+1.000000 setlinewidth
+stroke
+newpath
+543 458 moveto
+544 458 lineto
+1.000000 setlinewidth
+stroke
+newpath
+544 457 moveto
+544 458 lineto
+1.000000 setlinewidth
+stroke
+newpath
+544 457 moveto
+545 457 lineto
+1.000000 setlinewidth
+stroke
+newpath
+545 456 moveto
+545 457 lineto
+1.000000 setlinewidth
+stroke
+newpath
+545 456 moveto
+546 456 lineto
+1.000000 setlinewidth
+stroke
+newpath
+546 455 moveto
+546 456 lineto
+1.000000 setlinewidth
+stroke
+newpath
+546 455 moveto
+547 455 lineto
+1.000000 setlinewidth
+stroke
+newpath
+547 454 moveto
+547 455 lineto
+1.000000 setlinewidth
+stroke
+newpath
+547 454 moveto
+548 454 lineto
+1.000000 setlinewidth
+stroke
+newpath
+548 453 moveto
+548 454 lineto
+1.000000 setlinewidth
+stroke
+newpath
+548 453 moveto
+549 453 lineto
+1.000000 setlinewidth
+stroke
+newpath
+549 452 moveto
+549 453 lineto
+1.000000 setlinewidth
+stroke
+newpath
+549 452 moveto
+550 452 lineto
+1.000000 setlinewidth
+stroke
+newpath
+550 451 moveto
+550 452 lineto
+1.000000 setlinewidth
+stroke
+newpath
+550 451 moveto
+551 451 lineto
+1.000000 setlinewidth
+stroke
+newpath
+551 450 moveto
+551 451 lineto
+1.000000 setlinewidth
+stroke
+newpath
+551 450 moveto
+552 450 lineto
+1.000000 setlinewidth
+stroke
+newpath
+552 449 moveto
+552 450 lineto
+1.000000 setlinewidth
+stroke
+newpath
+552 449 moveto
+553 449 lineto
+1.000000 setlinewidth
+stroke
+newpath
+553 448 moveto
+553 449 lineto
+1.000000 setlinewidth
+stroke
+newpath
+553 448 moveto
+554 448 lineto
+1.000000 setlinewidth
+stroke
+newpath
+554 447 moveto
+554 448 lineto
+1.000000 setlinewidth
+stroke
+newpath
+554 447 moveto
+555 447 lineto
+1.000000 setlinewidth
+stroke
+newpath
+555 446 moveto
+555 447 lineto
+1.000000 setlinewidth
+stroke
+newpath
+555 446 moveto
+556 446 lineto
+1.000000 setlinewidth
+stroke
+newpath
+556 445 moveto
+556 446 lineto
+1.000000 setlinewidth
+stroke
+newpath
+556 445 moveto
+557 445 lineto
+1.000000 setlinewidth
+stroke
+newpath
+557 444 moveto
+557 445 lineto
+1.000000 setlinewidth
+stroke
+newpath
+557 444 moveto
+558 444 lineto
+1.000000 setlinewidth
+stroke
+newpath
+558 443 moveto
+558 444 lineto
+1.000000 setlinewidth
+stroke
+newpath
+558 443 moveto
+559 443 lineto
+1.000000 setlinewidth
+stroke
+newpath
+559 442 moveto
+559 443 lineto
+1.000000 setlinewidth
+stroke
+newpath
+559 442 moveto
+560 442 lineto
+1.000000 setlinewidth
+stroke
+newpath
+560 441 moveto
+560 442 lineto
+1.000000 setlinewidth
+stroke
+newpath
+560 441 moveto
+561 441 lineto
+1.000000 setlinewidth
+stroke
+newpath
+561 440 moveto
+561 441 lineto
+1.000000 setlinewidth
+stroke
+newpath
+561 440 moveto
+562 440 lineto
+1.000000 setlinewidth
+stroke
+newpath
+562 439 moveto
+562 440 lineto
+1.000000 setlinewidth
+stroke
+newpath
+562 439 moveto
+563 439 lineto
+1.000000 setlinewidth
+stroke
+newpath
+563 438 moveto
+563 439 lineto
+1.000000 setlinewidth
+stroke
+newpath
+563 438 moveto
+564 438 lineto
+1.000000 setlinewidth
+stroke
+newpath
+564 437 moveto
+564 438 lineto
+1.000000 setlinewidth
+stroke
+newpath
+564 437 moveto
+570 431 lineto
+1.000000 setlinewidth
+stroke
+showpage
+%%EOF

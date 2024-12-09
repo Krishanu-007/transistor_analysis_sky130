@@ -1,0 +1,19 @@
+#NMOS_ANALYSIS(nfet_01v08)-no variation is done to the standard W/L ratio#
+
+1) The minimum acceptable current value is 1uA
+2) The Threshold Gate-Source voltage(Vgs) is 646mV
+3) Setting Vds at 1.8V and sweeping Vgs, then at Vgs=1.8V the Ids value is 501uA
+4) The transconductance at the above setting is 5.32*10^-4 siemens
+5) Setting Vgs at 1.8 and sweeping Vds, then at Vds=1.8 the Ids value is 501uA
+6) The rds value at the above setting is 19.3kOhm
+
+#PMOS_ANALYSIS(pfet_01v08)-no variation is done to the standard W/L ratio#
+
+1) The minimum acceptable current value is 1uA
+2) The Threshold Gate-Source voltage(Vgs) is 544mV
+3) Setting Vds at 1.8V and sweeping Vgs, then at Vgs=1.8V the Ids value is 201uA
+4) The transconductance at the above setting is 2.38*10^-4 siemens
+5) Setting Vgs at 1.8 and sweeping Vds, then at Vds=1.8 the Ids value is 201uA
+6) The rds value at the above setting is 23.34kOhm
+
+
