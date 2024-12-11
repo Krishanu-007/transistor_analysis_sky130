@@ -1,0 +1,3 @@
+* SPICE3 file created from nmos_sky130.ext - technology: sky130A
+
+X0 Drain Input Ground Ground sky130_fd_pr__nfet_01v8 ad=0.175 pd=1.7 as=0.175 ps=1.7 w=0.5 l=0.15

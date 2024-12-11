@@ -1,0 +1,14 @@
+timestamp 1733939897
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 4400000 2200000 950000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12800 125 125 47 47 29 5
+parameters sky130_fd_pr__nfet_01v8 l=l w=w a1=as p1=ps a2=ad p2=pd
+node "Drain" 193 77.7115 10 -50 ndif 0 0 0 0 0 0 0 0 7000 340 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6000 320 0 0 0 0 0 0 0 0 0 0 0 0
+node "Input" 387 223.528 -50 -150 p 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10500 640 0 0 5400 300 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "Input" "Gate"
+substrate "Ground" 0 0 -250 -50 ppd 0 0 0 0 0 0 0 0 7000 340 10000 400 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 18400 760 10000 400 0 0 0 0 0 0 0 0 0 0
+equiv "Ground" "Source"
+cap "Input" "Drain" 13.4158
+device msubckt sky130_fd_pr__nfet_01v8 -20 -50 -19 -49 l=30 w=100 "Ground" "Input" 60 0 "Ground" 100 7000,340 "Drain" 100 7000,340
