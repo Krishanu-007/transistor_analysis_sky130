@@ -1,0 +1,65 @@
+magic
+tech sky130B
+timestamp 1735057123
+<< nwell >>
+rect -155 -45 85 60
+<< pmos >>
+rect 10 -25 25 40
+<< pdiff >>
+rect -25 25 10 40
+rect -25 -5 -20 25
+rect 0 -5 10 25
+rect -25 -25 10 -5
+rect 25 25 60 40
+rect 25 -5 35 25
+rect 55 -5 60 25
+rect 25 -25 60 -5
+<< pdiffc >>
+rect -20 -5 0 25
+rect 35 -5 55 25
+<< nsubdiff >>
+rect -130 25 -55 40
+rect -130 -5 -110 25
+rect -80 -5 -55 25
+rect -130 -25 -55 -5
+<< nsubdiffcont >>
+rect -110 -5 -80 25
+<< poly >>
+rect 10 40 25 55
+rect 10 -70 25 -25
+rect -25 -75 25 -70
+rect -25 -95 -10 -75
+rect 10 -95 25 -75
+rect -25 -100 25 -95
+<< polycont >>
+rect -10 -95 10 -75
+<< locali >>
+rect -130 25 -55 40
+rect -25 25 5 40
+rect -130 -5 -110 25
+rect -80 -5 -20 25
+rect 0 -5 5 25
+rect -130 -25 -55 -5
+rect -25 -25 5 -5
+rect 30 25 60 40
+rect 30 -5 35 25
+rect 55 -5 60 25
+rect 30 -25 60 -5
+rect -25 -75 25 -70
+rect -25 -95 -10 -75
+rect 10 -95 25 -75
+rect -25 -100 25 -95
+<< viali >>
+rect -110 -5 -80 25
+<< metal1 >>
+rect -130 25 -55 40
+rect -130 -5 -110 25
+rect -80 -5 -55 25
+rect -130 -25 -55 -5
+<< labels >>
+rlabel polycont -10 -95 10 -75 1 Input
+rlabel nwell -110 -5 -80 25 1 Vdd
+rlabel pdiffc -20 -5 0 25 1 Source
+rlabel pdiffc 35 -5 55 25 1 Drain
+rlabel poly 15 50 15 50 1 Gate
+<< end >>
