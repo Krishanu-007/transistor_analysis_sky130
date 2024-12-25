@@ -7,9 +7,9 @@ I am open to any of the suggestions making this more optimized or readable and a
 # Table of Contents
 - [Introduction To The Tools](#introduction-to-the-tools)
 - [What is PDK](#what-is-pdk)
-- [Installation Of The Tools](#isntallation-of-the-tools)
-- [Contributing](#contributing)
-- [License](#license)
+-  [Installation of the Tools and PDK](#installation-of-the-tools-and-pdk)
+- [MOSFET Analysis](#mosfet-analysis)
+- [Tips and Debugging](#tips-and-debugging)
 
 ## Introduction To The Tools
  Firstly before starting we need to discuss about the different set of tools that we are using, in our project. Following is the list of tools we used for the analysis:
@@ -46,20 +46,67 @@ A **PDK** (Process Design Kit) is a collection of files and tools that provide t
 PDKs are essential for creating designs that are compatible with the capabilities and limitations of the chosen fabrication process. They help ensure that designs are manufacturable and perform as intended when built.
 
 
-## Installation Of The Tools
+## Installation of the Tools and PDK
 Here comes the hectic part of the process. Installation of the open source tools. However I have provided with some scripts that can be used for the installation process.
 **Reminder:** All the development is done in linux environment. So you have to either use Linux distro, or can use VMs and WSL also. (I personally worked in Ubuntu 24.04 LTS)
 
-First install using install1.sh file for all the tools and install2.sh for the installation of opendpdk.
-
 ```bash
-chmod +x script_name.sh  # Make the script executable #Do this for both the scripts
-./script_name.sh         # Execute the script
+chmod +x EDA_tools.sh  # Make the script executable #Do this for EDA tools
+./EDA_tools.sh         # Execute the script
+```
+```bash
+chmod +x open_pdk_install.sh # Make the script executable # Do this for open-pdk intallation
+./open_pdk.sh                # Execute the script
 ```
 
-# Contributing
-Guidelines for contributing to the project.
+## MOSFET Analysis
+For both NMOS and PMOS I have selected the standard 1.8V mosfets from the sky130 foundry(nfet_01v8.sym and pfet_01v8.sym) and performed the analysis for the same parameters listed below:
+- Threshold Vgs Value
+- Ids vs Vgs
+- Transconductance
+- Ids vs Vds
+- On Resistance
 
-# License
-Details about the license for this project.
+The exact values can be seen in the [result.txt file](./result.txt) Below are the detailed circuits, graphs and layout for each NMOS and PMOS respectively.
+
+### NMOS Results:
+ Circuit:
+ ![Circuit1](./Schematics/nmos_schematic.png)
+ This is done using Xschem for the schematic capture.
+ 
+ Layout:
+ ![Layout1](./Layout/nmos_layout.png)
+ This is done using Magic Vlsi. Here the technology node is sky130B. Also the measurements taken are in the 50nm x 50nm grid with snap to grid on. In short the layout is slightly larger than the optimum theoritical result.
+
+ ### PMOS Results:
+ Circuit:
+
+ ![Circuit2](./Schematics/pmos_schematic.png)
+
+ Layout:
+ 
+ ![Layout2](./Layout/pmos_layout.png)
+
+
+ For the Graphs related to each, you can visit the [Graphs](./Graphs) section.
+
+
+## Tips and Debugging
+
+The scripts I provided will install everything in the home directory. However to integrate the open-pdk to your xschem and magic there are some procedures:
+- Install Xterm first, as all you can use it for writing all the commands for your xschem while keeping the main terminal free.
+```bash
+sudo nala install xterm
+``` 
+- The following link will tell you the process of integrating xschem with sky130 pdk: [xschem sky130 integration](https://xschem.sourceforge.io/stefan/xschem_man/tutorial_xschem_sky130.html)
+
+- For integrating magic with sky130B tech files, as your xschem is getting for schematic capture, go to this path:
+```bash
+/home/<user_name>/open_pdks/sky130/sky130B/libs.tech/magic
+```
+Inside this path you'll find a file named **sky130B.magicrc**. Copy this file and paste it in the home directory by renaming it to "**.magicrc**". This will be a hidden file. Also do enable viewing hidden files (starts with .file_name). If there exists any .magicrc file previously, remove that first then paste this. In this way your magic tool will always start with integrating the **sky130B** tech files.
+ 
+# Conclusion
+
+The sole purpose of this work is to provide the basic details of how the backend works in VLSI domain. Also it is to be discussed that there are several reasons I skipped some parts from this Readme file, like the concept of Strong 0 and Strong 1 conduction for NMOS and PMOS respectively. Also the spice commands that are present in the schematics are not explained in depth. In future I plan to work on a inverter design where I will be talking about these in details.
 
